@@ -185,6 +185,14 @@
 						"table_name": {
 							"value": "@activity('Read Table_Details').output.firstRow.silver_table_name",
 							"type": "Expression"
+						},
+						"merge_keys": {
+							"value": "@coalesce(activity('Read Table_Details').output.firstRow.merge_keys,'')",
+							"type": "Expression"
+						},
+						"load_type": {
+							"value": "@activity('Read Table_Details').output.firstRow.load_type",
+							"type": "Expression"
 						}
 					}
 				},
