@@ -1,1 +1,1 @@
-This repo is for caresync project
+This repo is for caresync project - Endpoint=sb://ubereventssudip.servicebus.windows.net/;SharedAccessKeyName=SendPolicy;SharedAccessKey=y9S5UHK5pBVdIXZcmc/0ysXzKsjuccwzM+AEhHUY2So=;EntityPath=ubertopic
